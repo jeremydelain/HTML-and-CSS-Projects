@@ -1,0 +1,102 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background-color: lightgray;
+}
+h1 {
+    font-size: 600%;
+    text-align: center;
+}
+h2 {
+    font-size: 400%;
+    text-align: center;
+}
+h3 {
+    font-size: 150%;
+}
+
+/*==============================
+
+===================================*/
+
+.subscribe {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: #203731;
+    box-shadow: -1px -1px 1px o rgba(0,0,0,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
+}
+
+.subscribe h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 500;
+    font-size: 1.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.subscribe h2 span {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+    font-weight: 900;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    letter-spacing: .4pt;
+    word-spacing: .3pt;
+}
+
+.subscribe form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: gold;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: #FFB612;
+    box-shadow: 2px 3px 3px 0px rgba(24, 22, 22, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+
+.subscribe input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 2% 1% 2% 7%;
+    width: 80%;
+    border-top: 1px solid #090B0D;
+    border-right: 2px solid #424549;
+    border-bottom: 2px solid #424549;
+    border-left: 1px solid #090B0D;
+    margin: 10px 1em;
+    border-radius: 7px;
+    background: whitesmoke;
+    box-shadow: inset 0px 3px 0px 0px rgba(5,5,5,0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.subscribe input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100,65,0,0.8);
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+}
+
+.center img {
+    width: 960px;
+}
+
+.center iframe {
+    width: 960px;
+    height: 540px;
+}
