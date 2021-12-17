@@ -1,0 +1,150 @@
+img {
+    filter: sepia(50%);
+    border: 100px groove #FFB612;
+    border-radius: 20px;
+}
+/*=================================================
+    NAV BAR
+================================================*/
+.navbar {
+    overflow: hidden;
+    z-index: 9999;
+    background-color: #203731;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+  
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.navbar a:hover {
+    background: #FFB612;
+    color: #203731;
+}
+  
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+/*=================================================
+    END NAV BAR
+================================================*/
+
+
+
+.image {
+    display: block;
+    width: 40%;
+    height: auto;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.container:hover .overlay {
+    opacity: .5;
+}
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+
+
+/*=================================================
+    COLUMNS
+================================================*/
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 50%;
+}
+/*=================================================
+    END COLUMNS
+================================================*/
+
+
+
+/*=================================================
+    TABLE
+================================================*/
+.standings table {
+    background-color: #203731;
+    border: 2px solid #FFB612;
+    width: 100%;
+}
+.standings td {
+    border: 1px solid #FFB612;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+.standings th {
+    border: 4px solid #203731;
+    background-color: #FFB612;
+    color: black;
+    font-weight: bold;
+}
+/*=================================================
+    END TABLE
+================================================*/
+
+
+
+
+/*=================================================
+    FOOTER
+================================================*/
+footer {
+    text-align:center;
+    font-weight: bold;
+}
+/*=================================================
+    END FOOTER
+================================================*/
