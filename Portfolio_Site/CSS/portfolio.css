@@ -44,8 +44,13 @@ p:hover {
 }
 
 a {
-    color: blue;
+    color: green;
 }
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
 q {
     font-style: italic;
@@ -97,7 +102,7 @@ img:hover {
     top: 0;
     width: 100%;
     z-index: 1;
-    -webkit-animation: moveNav 5s;
+    -webkit-animation: moveNav 1s;
 }
 
 @keyframes moveNav {
@@ -115,7 +120,7 @@ img:hover {
     font-size: 20px;
     text-align: center;
     position: relative;
-    -webkit-animation: moveNavText 5.7s;
+    -webkit-animation: moveNavText 1s;
 }
 
 @keyframes moveNavText {
@@ -170,8 +175,8 @@ img:hover {
     width: 100%;
     padding: 20px;
     position: relative;
-    -webkit-animation: moveVideoText 5.75s;
-    animation: moveVideoText 5.75s;
+    -webkit-animation: moveVideoText 1s;
+    animation: moveVideoText 1s;
 }
 
 @keyframes moveVideoText {
@@ -196,7 +201,7 @@ img:hover {
     padding: 10px;
     padding-top: 3%;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.5);;
+    background-color: rgba(0, 0, 0, 0.8);;
     color: white;
 }
 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Jeremy DeLain</title>
+        <link rel="stylesheet" href="CSS/workspace.css">
+        <script src="JS/workspace.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <a class ="active" href="index.html">Home</a>
+        </div><hr>
+
+        <h1 style="font-size:2vw">Resizing based on the size of the window</h1><hr><br>
+        
+        <h3>Sending alert if form is submitted blank:</h3>
+        <form name="myForm" onsubmit="return validateForm()">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="submit" value="Submit">
+        </form><br><hr><br>
+        
+        <button class="open-button" onclick="openForm()">Open Form</button>
+        <div class="form-popup" id="myPopupForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+          
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+          
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+          
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div><br><hr><br>
+
+        <h2>Annoying news headlines:</h2>
+        <h6 class="slide">Something something metaverse something something blockchain something something politics something something pandemic</h6><hr><br>
+
+        <img src="Resources/coding.jpg" class="zoominout"><br><hr><br>
+
+        <div id="slideshow" class="slides">
+            <div>
+                <img class="slides" src="Resources/workspace/gbp_1.jpg">
+            </div>
+            <div>
+                <img class="slides" src="Resources/workspace/gbp_2.jpg">
+            </div>
+            <div>
+                <img class="slides" src="Resources/workspace/gbp_4.jpg">
+            </div>
+            <div>
+                <img class="slides" src="Resources/workspace/gbp_5.jpg">
+            </div>
+        </div><br><hr><br>
+    
+        
+   
+    </body>
+</html>
